@@ -1,0 +1,204 @@
+'.source.homespring':
+  'Hatchery':
+    'prefix': 'hatchery'
+    'body': 'hatchery'
+    'description': 'When powered, spawns a mature upstream homeless salmon'
+  'Hydro power':
+    'prefix': 'hydro'
+    'body': 'hydro. Power'
+    'description': 'Generates electricity when watered'
+  'Snowmelt':
+    'prefix': 'snowmelt'
+    'body': 'snowmelt'
+    'description': 'Creates snowmelt each tick'
+  'Shallows':
+    'prefix': 'shallows'
+    'body': 'shallows'
+    'description': 'Mature salmon take two ticks to pass through'
+  'Rapids':
+    'prefix': 'rapids'
+    'body': 'rapids'
+    'description': 'Young salmon take two ticks to pass through'
+  'Append down':
+    'prefix': 'append down'
+    'body': 'append down'
+    'description': '''
+    For each downstream salmon that did not arrive from the first child, destroy
+    that salmon and append its name to each downstream salmon that did arrive
+    from the first child
+    '''
+  'Bear':
+    'prefix': 'bear'
+    'body': 'bear'
+    'description': 'Eats mature salmon'
+  'Force field':
+    'prefix': 'force field'
+    'body': 'force. Field'
+    'description': 'Blocks water, snowmelt, and salmon when powered'
+  'Sense':
+    'prefix': 'sense'
+    'body': 'sense'
+    'description': 'Blocks electricity when mature salmon are present'
+  'Clone':
+    'prefix': 'clone'
+    'body': 'clone'
+    'description': 'For each salmon, create a young downstream salmon with the same name'
+  'Young bear':
+    'prefix': 'young bear'
+    'body': 'young. Bear'
+    'description': 'Eats every other mature salmon'
+  'Bird':
+    'prefix': 'bird'
+    'body': 'bird'
+    'description': 'Eats young salmon'
+  'Upstream killing device':
+    'prefix': 'upstream killing device'
+    'body': 'upstream. Killing. Device'
+    'description': 'When powered, and has more than one child, kills all salmon in the last child'
+  'Waterfall':
+    'prefix': 'waterfall'
+    'body': 'waterfall'
+    'description': 'Blocks upstream salmon'
+  'Universe':
+    'prefix': 'universe'
+    'body': 'universe'
+    'description': 'If destroyed by snowmelt, the program terminates'
+  'Powers':
+    'prefix': 'powers'
+    'body': 'powers'
+    'description': 'Generates electricity'
+  'Marshy':
+    'prefix': 'marshy'
+    'body': 'marshy'
+    'description': 'Snowmelts take two ticks to pass through'
+  'Insulated':
+    'prefix': 'insulated'
+    'body': 'insulated'
+    'description': 'Blocks electricity'
+  'Upstream sense':
+    'prefix': 'upstream sense'
+    'body': 'upstream. Sense'
+    'description': 'Blocks electricity when upstream mature salmon are present'
+  'Downstream sense':
+    'prefix': 'downstream sense'
+    'body': 'downstream. Sense'
+    'description': 'Blocks electricity when downstream mature salmon are present'
+  'Evaporates':
+    'prefix': 'evaporates'
+    'body': 'evaporates'
+    'description': 'Blocks water and snowmelt when powered'
+  'Youth fountain':
+    'prefix': 'youth fountain'
+    'body': 'youth. Fountain'
+    'description': 'Makes all salmon young'
+  'Oblivion':
+    'prefix': 'oblivion'
+    'body': 'oblivion'
+    'description': 'When powered, changes the name of each salmon to ""'
+  'Pump':
+    'prefix': 'pump'
+    'body': 'pump'
+    'description': 'Very blocks salmon'
+  'Range sense':
+    'prefix': 'range sense'
+    'body': 'range. Sense'
+    'description': 'Blocks electricity when mature salmon are here or upstream'
+  'Fear':
+    'prefix': 'fear'
+    'body': 'fear'
+    'description': 'Very blocks salmon when powered'
+  'Reverse up':
+    'prefix': 'reverse up'
+    'body': 'reverse. Up'
+    'description': 'For each downstream salmon that arrived from the second child, move it to the first child if possible'
+  'Reverse down':
+    'prefix': 'reverse down'
+    'body': 'reverse. Down'
+    'description': 'For each downstream salmon that arrived from the first child, move it to the second child if possible'
+  'Time':
+    'prefix': 'time'
+    'body': 'time'
+    'description': 'Makes all salmon mature'
+  'Lock':
+    'prefix': 'lock'
+    'body': 'lock'
+    'description': 'Very blocks downstream salmon and blocks snowmelt when powered'
+  'Inverse lock'
+    'prefix': 'inverse lock'
+    'body': 'inverse. Lock'
+    'description': 'Very blocks downstream salmon and blocks snowmelt when not powered'
+  'Young sense':
+    'prefix': 'young sense'
+    'body': 'young. Sense'
+    'description': 'Blocks electricity when young salmon are present'
+  'Switch':
+    'prefix': 'switch'
+    'body': 'switch'
+    'description': 'Blocks electricity unless mature salmon are present'
+  'Young switch':
+    'prefix': 'young switch'
+    'body': 'young. Switch'
+    'description': 'Blocks electricity unless young salmon are present'
+  'Narrows':
+    'prefix': 'narrows'
+    'body': 'narrows'
+    'description': 'Very blocks salmon if another salmon is present'
+  'Append up':
+    'prefix': 'append up'
+    'body': 'append. Up'
+    'description': '''
+    For each downstream salmon that did not arrive from the first child, destroy
+    that salmon and append its name to each upstream salmon
+    '''
+  'Young range sense':
+    'prefix': 'young range sense'
+    'body': 'young. Range. Sense'
+    'description': 'Blocks electricity when young salmon are here or upstream'
+  'Net':
+    'prefix': 'net'
+    'body': 'net'
+    'description': 'Very blocks mature salmon'
+  'Force down':
+    'prefix': 'force down'
+    'body': 'force. Down'
+    'description': '''
+    For each downstream salmon that arrived from the first child, move it to the
+    second child if possible. Also blocks upstream salmon from moving to the last
+    child
+    '''
+  'Force up':
+    'prefix': 'force up'
+    'body': 'force. Up'
+    'description': '''
+    For each downstream salmon that arrived from the second child, move it to the
+    first child if possible. Also blocks upstream salmon from moving to the first
+    child
+    '''
+  'Spawn':
+    'prefix': 'spawn'
+    'body': 'spawn'
+    'description': 'Makes all salmon upstream spawn when powered'
+  'Power invert':
+    'prefix': 'power invert'
+    'body': 'power. Invert'
+    'description': 'Is powered if and only if none of its children are powered'
+  'Current':
+    'prefix': 'current'
+    'body': 'current'
+    'description': 'Very blocks young salmon'
+  'Bridge':
+    'prefix': 'bridge'
+    'body': 'bridge'
+    'description': 'Blocks snowmelt and water and very blocks salmon when destroyed'
+  'Split':
+    'prefix': 'split'
+    'body': 'split'
+    'description': 'Splits each salmon into a new salmon for every letter in the original salmon\'s name'
+  'Range switch':
+    'prefix': 'range switch'
+    'body': 'range. Switch'
+    'description': 'Blocks electricity unless mature salmon are here or upstream'
+  'Young range switch':
+    'prefix': 'young range switch'
+    'body': 'young. Range. Switch'
+    'description': 'Blocks electricity unless young salmon are here or upstream'

@@ -1,0 +1,19 @@
+{
+  "name": "language-homespring",
+  "version": "0.0.0",
+  "description": "Adds language support for HOtMEfSPRIbNG to Atom ",
+  "keywords": [
+    "language",
+    "grammar",
+    "homespring",
+    "hotmefspribng",
+    "salmon",
+    "river",
+    "esoteric"
+  ],
+  "repository": "https://github.com/atom/language-homespring",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

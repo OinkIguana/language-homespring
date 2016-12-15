@@ -1,0 +1,76 @@
+'scopeName': 'source.homespring'
+'name': 'Homespring'
+'fileTypes': [
+  'hs'
+]
+# Since homespring has none of values, literals, variables, classes, functions,
+# or most other features of inferior languages, the names for those have been
+# reused to provide a greater variety of colours in the editor. The meaning of
+# the colours is most meaningful using the One Dark theme or something similar
+# as he names of the springs generally correspond to the colour
+'patterns': [
+  {
+    'match': '(?i)(?<!\\. | \\.)(universe)(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.control.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(bear|young\\. bear|bird|upstream\\. killing\\. device|append\\. (up|down)|splits)(?= |\\n)(?! \\.|\\. )'
+    'name': 'variable.language.killer.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(shallows|rapids)(?= |\\n)(?! \\.|\\. )'
+    'name': 'string.unquoted.salmon.slow.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)marshy(?= |\\n)(?! \\.|\\. )'
+    'name': 'string.unquoted.snow.slow.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(hydro\\. power|powers|power\\. invert)(?= |\\n)(?! \\.|\\. )'
+    'name': 'entity.name.class.power.generator.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(snowmelt)(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.operator.snow.generator.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(hatchery|clone)(?= |\\n)(?! \\.|\\. )'
+    'name': 'variable.language.salmon.generator.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)((force|reverse)\\. (up|down))(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.control.salmon.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(youth\\. fountain|oblivion|time|spawn)(?= |\\n)(?! \\.|\\. )'
+    'name': 'constant.number.salmon.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(force\\. field|evaporates|(inverse\\. )?lock|bridge)(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.control.block.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(waterfall|pump|fear|narrows|net|current)(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.control.salmon.block.homespring'
+  }
+  {
+    'match': '(?i)(?<!\\. | \\.)(((upstream|downstream|range|young|(young\\. range))\\. )?sense|(young\\. ) ?(range\\. )?switch|insulated)(?= |\\n)(?! \\.|\\. )'
+    'name': 'keyword.control.power.block.homespring'
+  }
+  {
+    'match': '( \\. |\\.  \\.)'
+    'name': 'invalid.illegal.paradox.homespring'
+  }
+  {
+    'match': '(\\. | \\.|\\.\\n)'
+    'name': 'constant.character.escape.underline.homespring'
+  }
+  {
+    'match': '(?<!\\.)[\\s](?!\\.)',
+    'name': ''
+  }
+  {
+    'match': '[^\\s\\.]+'
+    'name': 'entity.name.function.spring.underline.homespring'
+  }
+]
