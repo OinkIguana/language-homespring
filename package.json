@@ -1,6 +1,6 @@
 {
   "name": "language-homespring",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds language support for HOtMEfSPRIbNG to Atom",
   "keywords": [
     "language",
