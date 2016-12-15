@@ -5,4 +5,4 @@
 Provides support for the Homespring (HOtMEfSPRIbNG) language, created by Jeff
 Binder.
 
-For more information, see [here][eso]
+For more information about how to use Homespring, see [here][eso]
