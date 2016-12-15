@@ -123,7 +123,7 @@
     'prefix': 'lock'
     'body': 'lock'
     'description': 'Very blocks downstream salmon and blocks snowmelt when powered'
-  'Inverse lock'
+  'Inverse lock':
     'prefix': 'inverse lock'
     'body': 'inverse. Lock'
     'description': 'Very blocks downstream salmon and blocks snowmelt when not powered'
